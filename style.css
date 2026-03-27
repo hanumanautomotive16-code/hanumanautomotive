@@ -640,8 +640,61 @@ header, .banner, .hero, .product, .services, .gallery, .videos, .testimonials, .
   .testimonial-list {
     grid-template-columns: 1fr;
   }
+   /* CONTACT BOX */
+.contact-box {
+  background: #111;
+  border: 1px solid #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.contact-box p {
+  margin: 10px 0;
+  color: #ccc;
+}
+
+.contact-box strong {
+  color: #fff;
+}
 
   .product-gallery {
     grid-template-columns: 1fr;
   }
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+.call-float {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: #e10600;
+  color: white;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+.call-float:hover {
+  transform: scale(1.1);
 }
